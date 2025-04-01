@@ -3,6 +3,18 @@
 本文件為 Git 指令對照表，涵蓋 Git 的初始化、提交變更、分支管理、合併、版本回朔、歷史重寫、Submodule 與 Git Internals 等操作，適用於本次 Git 課程與進階應用。
 
 ---
+## **📌 Git 初始設定**
+
+### **1️⃣ 設定使用者名稱和電子郵件 (為方便之後使用)**
+
+```sh
+git config --global  user.name "使用者名稱"
+git config --global  user.email "使用者電子郵件"
+```
+
+- 設定GIT全域，注意這裡的電子郵件要與你的GitHub帳號相符。
+
+---
 
 ## **📌 Git 初始化與基本操作**
 
